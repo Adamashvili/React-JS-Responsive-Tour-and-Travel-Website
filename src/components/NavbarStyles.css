@@ -12,6 +12,13 @@
     height: 80px;
     border-radius: 13px;
     z-index: 9999;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: 0.2s all ease;
+}
+.NavbarItems:hover {
+    opacity: 1;
+    width: 96%;
 }
 
 .navbar-logo {
