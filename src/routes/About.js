@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/hero";
 import travelImg from "../assets/travel.jpg";
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 
 function About () {
@@ -14,6 +15,7 @@ function About () {
          title="About"
          btnClass="hide"
          />
+         <AboutUs/>
          <Footer/>
         </>
         
