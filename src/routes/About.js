@@ -1,8 +1,21 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/hero";
+import travelImg from "../assets/travel.jpg";
+
+
 function About () {
     return (
         <>
-        <h1>About</h1>
+        <Navbar/>
+         <Hero
+         cName="hero-mid"
+         heroImg={travelImg}
+         title="About"
+         btnClass="hide"
+         />
+         
         </>
+        
     )
 
 
