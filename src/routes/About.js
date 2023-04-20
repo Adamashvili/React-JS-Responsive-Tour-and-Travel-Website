@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/hero";
 import travelImg from "../assets/travel.jpg";
+import Footer from "../components/Footer";
 
 
 function About () {
@@ -13,7 +14,7 @@ function About () {
          title="About"
          btnClass="hide"
          />
-         
+         <Footer/>
         </>
         
     )

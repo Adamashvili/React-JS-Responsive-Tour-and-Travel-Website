@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/hero";
 import travelImg from "../assets/contact.jpg";
+import Footer from "../components/Footer";
 
 function Contact () {
     return (
@@ -12,6 +13,7 @@ function Contact () {
          title="Contact"
          btnClass="hide"
          />
+         <Footer/>
         </>
     )
 
